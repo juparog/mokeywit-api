@@ -1,6 +1,6 @@
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
-import Config from '../../config/environment/config';
+const Config = require('../../config/environment/config');
 
 /* import data1 from '../../test/data/videos.json';
 import data2 from '../../test/data/video.json'; */
@@ -39,4 +39,4 @@ const videos = {
   },
 };
 
-export default videos;
+module.exports = videos;

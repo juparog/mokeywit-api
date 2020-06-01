@@ -1,14 +1,15 @@
-import Chalk from 'chalk';
-import Cors from 'cors';
-import Express from 'express';
-import Morgan from 'morgan';
-import Path from 'path';
+const Chalk = require('chalk');
+const Cors = require('cors');
+const Express = require('express');
+const Morgan = require('morgan');
+const Path = require('path');
 
-import Cofig from '../config/environment/config';
+const Config = require('../config/environment/config');
+
 
 // definiciones
 const app = Express();
-const port = Cofig.get('port') || 8080;
+const port = Config.get('port') || 8080;
 const projectPath = process.cwd();
 
 // middlewares

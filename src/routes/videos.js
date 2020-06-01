@@ -1,6 +1,6 @@
-import { Router } from 'express';
+const { Router } = require('express');
 
-import videosController from '../controllers/videosController';
+const videosController = require('../controllers/videosController');
 
 const router = new Router();
 
