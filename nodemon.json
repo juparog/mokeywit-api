@@ -1,0 +1,5 @@
+{
+  "watch": ["src/index.js"],
+  "ignore": [".git", "node_modules"],
+  "exec": "npm run lint:fix && babel-node src/index.js"
+}

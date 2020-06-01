@@ -1,0 +1,70 @@
+ {
+   "kind": "youtube#videoListResponse",
+   "etag": "O_MFKW3IQx5Kp7wi6E0U76PDZEI",
+   "items": [{
+     "kind": "youtube#video",
+     "etag": "aeafCt6AV1q0OA7ILweAQfK-288",
+     "id": "KwLTb7If0d4",
+     "snippet": {
+       "publishedAt": "2020-05-18T19:23:08Z",
+       "channelId": "UCC7y8uQQXtSxXDGle76HAxw",
+       "title": "Servidor web con Nodejs y Express en 10 minutos",
+       "description": "Express es un framework de aplicación web para nodejs que proporciona los métodos y middlewares necesarios para crear un servidor web robusto de manera rápida y sencilla.\nEn este vídeo te mostramos como usar express para crear un servidor web en 10 minutos.\n\nPuedes acceder al código del proyecto en github: https://github.com/monkeywit/Servidor-web-nodejs-y-express\n\nFacebook: https://www.facebook.com/monkeywit/\nGithub: https://github.com/monkeywit\nInstagram: https://www.instagram.com/monkey.wit/",
+       "thumbnails": {
+         "default": {
+           "url": "https://i.ytimg.com/vi/KwLTb7If0d4/default.jpg",
+           "width": 120,
+           "height": 90
+         },
+         "medium": {
+           "url": "https://i.ytimg.com/vi/KwLTb7If0d4/mqdefault.jpg",
+           "width": 320,
+           "height": 180
+         },
+         "high": {
+           "url": "https://i.ytimg.com/vi/KwLTb7If0d4/hqdefault.jpg",
+           "width": 480,
+           "height": 360
+         },
+         "standard": {
+           "url": "https://i.ytimg.com/vi/KwLTb7If0d4/sddefault.jpg",
+           "width": 640,
+           "height": 480
+         },
+         "maxres": {
+           "url": "https://i.ytimg.com/vi/KwLTb7If0d4/maxresdefault.jpg",
+           "width": 1280,
+           "height": 720
+         }
+       },
+       "channelTitle": "MonkeyWit",
+       "tags": [
+         "nodejs",
+         "node",
+         "node js",
+         "servidor web",
+         "servidor web con nodejs",
+         "web server",
+         "javascript",
+         "node js desde cero",
+         "express",
+         "nodemon",
+         "fácil",
+         "rápido",
+         "2020",
+         "10 minutos"
+       ],
+       "categoryId": "27",
+       "liveBroadcastContent": "none",
+       "localized": {
+         "title": "Servidor web con Nodejs y Express en 10 minutos",
+         "description": "Express es un framework de aplicación web para nodejs que proporciona los métodos y middlewares necesarios para crear un servidor web robusto de manera rápida y sencilla.\nEn este vídeo te mostramos como usar express para crear un servidor web en 10 minutos.\n\nPuedes acceder al código del proyecto en github: https://github.com/monkeywit/Servidor-web-nodejs-y-express\n\nFacebook: https://www.facebook.com/monkeywit/\nGithub: https://github.com/monkeywit\nInstagram: https://www.instagram.com/monkey.wit/"
+       },
+       "defaultAudioLanguage": "es"
+     }
+   }],
+   "pageInfo": {
+     "totalResults": 1,
+     "resultsPerPage": 1
+   }
+ }

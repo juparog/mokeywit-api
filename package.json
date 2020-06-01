@@ -1,0 +1,53 @@
+{
+  "name": "server-api-monkewit",
+  "version": "1.0.0",
+  "description": "Servidor api-rest que funcioa como un proxi entre el cliente MonkeyWit y la api de de youtube. Este servidor provee la información acerca de los videos disponibles en el canal de MonkeyWit en youtube.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "(set NODE_ENV=development) && nodemon",
+    "start:prod": "(set NODE_ENV=production) && nodemon",
+    "lint": "eslint src/ --ext .js",
+    "lint:fix": "eslint src/ --fix --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/cli.git"
+  },
+  "author": "engineer-jrg <engineer.jrg@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/npm/cli/issues"
+  },
+  "homepage": "https://github.com/npm/cli#readme",
+  "keywords": [
+    "express",
+    "convict",
+    "eslint",
+    "youtube-api-v3"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-json-strings": "^7.8.3",
+    "@babel/plugin-syntax-import-meta": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import-helpers": "^1.0.2",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "convict": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "path": "^0.12.7"
+  }
+}
